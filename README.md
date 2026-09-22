@@ -1,97 +1,138 @@
 # OmniFlow Using All Six Sigma Belts
 
-## End-to-End Lean Six Sigma DMAIC Transformation Project
+# End-to-End Lean Six Sigma Operational Excellence Transformation
 
 ![Lean Six Sigma](https://img.shields.io/badge/Methodology-Lean%20Six%20Sigma-blue)
 ![DMAIC](https://img.shields.io/badge/Framework-DMAIC-green)
-![Python](https://img.shields.io/badge/Python-Analysis-yellow)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-yellow)
 ![SQL](https://img.shields.io/badge/SQL-Analytics-orange)
-![Dataset](https://img.shields.io/badge/Data-Synthetic-lightgrey)
-![Project](https://img.shields.io/badge/Project-Portfolio-purple)
+![Synthetic Data](https://img.shields.io/badge/Data-Synthetic-lightgrey)
+![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)
+![Process Improvement](https://img.shields.io/badge/Focus-Process%20Improvement-red)
+![Operational Excellence](https://img.shields.io/badge/Focus-Operational%20Excellence-darkgreen)
 
 ---
 
 ## 📌 Project Overview
 
-**OmniFlow Using All Six Sigma Belts** is an end-to-end Lean Six Sigma process improvement case study designed to demonstrate how different Six Sigma belt responsibilities can work together within a single structured improvement project.
+**OmniFlow Using All Six Sigma Belts** is a comprehensive end-to-end Lean Six Sigma operational improvement case study designed to demonstrate how the complete Six Sigma belt ecosystem can be applied to a single business process.
 
-The project simulates an operational case-processing environment in which an organization is experiencing problems such as:
+The project combines:
 
-- Long processing and cycle times
-- High defect rates
+- Lean Thinking
+- Six Sigma methodology
+- DMAIC
+- Process Mapping
+- SIPOC
+- Voice of Customer
+- Critical to Quality analysis
+- Data Collection
+- Descriptive Statistics
+- Pareto Analysis
+- Fishbone Analysis
+- Five Whys
+- Root Cause Analysis
+- Process Variation Analysis
+- Driver Analysis
+- Poka-Yoke
+- Standard Work
+- Queue Management
+- Pilot Design
+- Control Planning
+- KPI Governance
+- Continuous Improvement
+
+The project is structured around a fictional organization called **OmniFlow Services**, which operates a multi-channel customer case-processing workflow.
+
+The simulated process experiences several operational challenges, including:
+
+- Excessive cycle time
+- Queue waiting
+- Process handoffs
+- Validation errors
+- Defects
 - Rework
-- Excessive backlog
-- Incomplete customer inputs
-- Manual validation
-- Multiple process handoffs
-- Queue imbalance
+- Backlog
+- Incomplete inputs
+- Process variation
+- Uneven workload distribution
 - Inconsistent standard work
-- Limited KPI visibility
-- Variation between process segments
+- Limited process visibility
 
-The project applies the **DMAIC methodology — Define, Measure, Analyze, Improve and Control** — to understand the process, establish a baseline, identify potential root causes, design improvements and establish a long-term control framework.
-
-A major objective of this repository is to demonstrate the relationship between the different Six Sigma belt levels:
-
-> **White Belt → Yellow Belt → Green Belt → Black Belt → Master Black Belt**
-
-Each belt is represented through a specific responsibility within the overall transformation architecture.
+The objective is to apply a structured **DMAIC transformation framework** to understand the process, establish a baseline, investigate potential causes, design improvements and establish controls for sustained performance.
 
 ---
 
-# 🎯 Project Objectives
+# 🎯 Project Purpose
 
-The major objectives of this project are:
+The primary purpose of this project is to demonstrate a complete process-improvement lifecycle rather than focusing on a single analytical technique.
 
-1. Understand the complete Lean Six Sigma improvement lifecycle.
-2. Build a structured DMAIC project from beginning to end.
-3. Demonstrate the responsibilities associated with different Six Sigma belts.
-4. Create and analyze a realistic synthetic operational dataset.
-5. Translate Voice of Customer into measurable Critical-to-Quality characteristics.
-6. Establish operational definitions and measurement standards.
-7. Analyze defects, rework, queue time and process variation.
-8. Identify potential root causes using structured problem-solving techniques.
-9. Design Lean improvement initiatives.
-10. Introduce Poka-Yoke and Standard Work concepts.
-11. Create a process control strategy.
-12. Demonstrate data-driven decision making using Python and SQL.
-13. Build a portfolio-quality continuous improvement case study.
-
----
-
-# 🏢 Business Scenario
-
-The fictional organization in this project is called **OmniFlow Services**.
-
-OmniFlow handles customer cases through multiple channels such as:
-
-- Email
-- Web Portal
-- Mobile Application
-- Branch
-- Phone
-
-Each case passes through several operational stages before closure.
-
-### High-Level Process
+The repository attempts to connect:
 
 ```text
-Customer / Input
+Business Problem
        ↓
+Customer Requirements
+       ↓
+Process Understanding
+       ↓
+Measurement
+       ↓
+Data Analysis
+       ↓
+Root Cause Investigation
+       ↓
+Improvement Design
+       ↓
+Pilot
+       ↓
+Control
+       ↓
+Continuous Improvement
+
+White Belt
+    ↓
+Yellow Belt
+    ↓
+Green Belt
+    ↓
+Black Belt
+    ↓
+Master Black Belt
+
+
+Customer
+   │
+   ▼
 Case Intake
-       ↓
+   │
+   ▼
 Input Validation
-       ↓
+   │
+   ▼
 Classification
-       ↓
+   │
+   ▼
 Routing
-       ↓
+   │
+   ▼
+Queue
+   │
+   ▼
 Processing
-       ↓
+   │
+   ▼
 Quality Check
-       ↓
-Exception / Rework
-       ↓
+   │
+   ├───────────────┐
+   │               │
+   ▼               ▼
+Accepted        Rework
+   │               │
+   │               └──────► Revalidation
+   │
+   ▼
 Case Closure
-       ↓
+   │
+   ▼
 Customer Outcome
